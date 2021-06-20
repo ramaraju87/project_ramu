@@ -11,7 +11,8 @@ object SparkObj7 {
 			val conf = new SparkConf().setAppName("ES").setMaster("local[*]")
 					val sc = new SparkContext(conf)
 					sc.setLogLevel("ERROR")
-  
+					println("------------raju----------------")
+			    println
 }
   
 }
